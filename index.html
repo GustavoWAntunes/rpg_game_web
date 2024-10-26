@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js"></script>
+    <title>Dragon Attack</title>
+    <link rel="icon" href="img/icon - Copia.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="title">
+            <img src="img/icon - Copia.jpg" id="icon-image">
+            <h1 id="titleDA">Dragon Attack</h1>
+        </div>
+    </header>
+    <main>
+        <div id="indiceText">
+            <h2 id="descTitle">The Shadow Dragon approaches</h2>
+            <h3 id="desc">The Shadow Dragon is a terrifying creature that inhabits the depths of the darkest and most forgotten caves. Its colossal body is covered in black scales that absorb light, making it nearly invisible in the shadows. Its red eyes glow with a malevolent intelligence and an insatiable thirst for power.</h3>
+        </div>
+        <div id="battleScren">
+            <div id="fightScren">
+                <h2>Dragão usou bola de fogo.</h2>
+                <h2 id="hDado">Dado: 1</h2>
+                <h2>O Dragão errou!</h2>
+                <h2>-0 de vida</h2> 
+            </div>
+            <div id="lifesBattleScren">
+                <h3 id="dragonLife">Dragon Life: 300</h3>
+                <h3 id="playerLife">Player Life: 150</h3>
+            </div>
+        </div>
+        <div id="scren">
+            <h2 id="display"></h2>
+            <div id="screenAction">
+                <h3 id="chosAct">Choose your action:</h3>
+                <div id="bttn">
+                    <input class="btnIn" type="submit" value="Weak Attack" onclick="diplayPrint(this)">
+                    <input class="btnIn" type="submit" value="Strong Attack" onclick="diplayPrint(this)">
+                    <input class="btnIn" type="submit" value="Special Attack" onclick="diplayPrint(this)">
+                    <input class="btnIn" type="submit" value="Heal" onclick="diplayPrint(this)">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

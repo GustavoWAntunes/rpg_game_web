@@ -1,0 +1,86 @@
+body {
+    margin: 0 auto; /* Remove as margens padrão da página e centraliza o conteúdo se a largura estiver definida */
+    font-family: 'Courier New', Courier, monospace; /* Define a fonte do texto para 'Courier New' */
+    color: white; /* Define a cor do texto como branca */
+    background-color: rgb(0, 4, 31); /* Define a cor de fundo da página como azul escuro */
+}
+
+#icon-image {
+    max-width: 100px; /* Define a largura máxima da imagem para 100px */
+    height: auto; /* Ajusta a altura automaticamente para manter a proporção da imagem */
+    padding-right: 1%; /* Adiciona um espaço de 1% à direita da imagem */
+}
+
+#title {
+    font-size: 150%; /* Aumenta o tamanho da fonte em 50% em relação ao tamanho base */
+    letter-spacing: 7px; /* Adiciona um espaçamento de 7px entre as letras */
+    font-family: "Jersey 10", sans-serif; /* Define a fonte como "Jersey 10" */
+    display: flex; /* Define que o conteúdo será organizado como um flexbox */
+    align-items: center; /* Alinha verticalmente o conteúdo da div no centro */
+    padding-left: 10px; /* Adiciona um espaço de 10px à esquerda da div */
+    /* justify-content: center; centraliza o conteúdo dentro da div */
+    /* Comentado: Se ativado, centralizaria o conteúdo horizontalmente dentro da div */
+}
+
+#chosAct {
+    padding-left: 1%; /* Adiciona um espaço de 1% à esquerda do elemento */
+}
+
+#display {
+    display: flex; /* Organiza o conteúdo do elemento como um flexbox */
+    flex-direction: column; /* Alinha o conteúdo em uma coluna, de cima para baixo */
+    padding: 20px; /* Adiciona um espaço de 20px em torno do conteúdo do elemento */
+    align-items: center; /* Centraliza o conteúdo da coluna horizontalmente */
+    height: 15px;;
+}
+
+#indiceText {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin-bottom: 5%;
+}
+
+#bttn {
+    display: flex; /* Organiza os botões em um flexbox, alinhando-os na mesma linha */
+}
+
+#screenAction {
+    display: flex; /* Organiza o conteúdo do elemento como um flexbox */
+    flex-direction: column; /* Alinha o conteúdo em uma coluna, de cima para baixo */
+    border: 2px solid; /* Adiciona uma borda sólida de 2px ao redor do elemento */
+    padding: 20px; /* Adiciona um espaço de 20px em torno do conteúdo do elemento */
+    align-items: center; /* Centraliza o conteúdo da coluna horizontalmente */
+    width: 60%; /* Define a largura do elemento para 350px */
+    margin: 0 auto; /* Centraliza o elemento horizontalmente na página */
+    margin-bottom: 50px;
+}
+
+.btnIn {
+    /* Estilo dos botões de ação */
+    font-family: 'Courier New', Courier, monospace; /* Define a fonte do texto para 'Courier New' */
+    font-size: 16px; /* Define o tamanho da fonte como 16px */
+    background-color: rgb(54, 152, 197); /* Define a cor de fundo do botão como azul */
+    color: white; /* Define a cor do texto do botão como branca */
+    padding: 10px 25px; /* Adiciona um espaço interno de 10px na vertical e 25px na horizontal */
+    text-align: center; /* Centraliza o texto dentro do botão */
+    margin: 3px; /* Adiciona um espaço de 3px ao redor do botão */
+    border: none; /* Remove a borda padrão do botão */
+    cursor: pointer; /* Muda o cursor para uma mãozinha quando o botão é clicável */
+    transition-duration: 0.4s; /* Define uma transição suave de 0.4 segundos para mudanças de estilo */
+}
+
+.btnIn:hover {
+    background-color: aliceblue; /* Muda a cor de fundo para 'aliceblue' quando o botão é passado com o mouse */
+    color: black; /* Muda a cor do texto para preto quando o botão é passado com o mouse */
+}
+
+#battleScren{
+    border: 2px solid;
+
+    display: flex; /* Organiza o conteúdo do elemento como um flexbox */
+    flex-direction: column; /* Alinha o conteúdo em uma coluna, de cima para baixo */
+    border: 2px solid; /* Adiciona uma borda sólida de 2px ao redor do elemento */
+    padding: 20px; /* Adiciona um espaço de 20px em torno do conteúdo do elemento */
+    align-items: center; /* Centraliza o conteúdo da coluna horizontalmente */
+    width: 60%; /* Define a largura do elemento para 350px */
+    margin: 0 auto; /* Centraliza o elemento horizontalmente na página */
+}
